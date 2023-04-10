@@ -2,4 +2,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  font-size: 30px;
+  font-weight: 500;
+  height: 100vh;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/001/984/880/original/abstract-colorful-geometric-overlapping-background-and-texture-free-vector.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0px 0px 100px #454545;
+}
+
+.container {
+  background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+  width: 50%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #545454;
+  margin: 0 auto;
+}
+
+.timer {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input {
+  border: none;
+  height: 30px;
+  width: 50%;
+  min-width: 150px;
+  margin: 10px;
+  text-align: center;
+  justify-self: center;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 500;
+  width: 50%;
+  min-width: 150px;
+  height: 30px;
+  border: none;
+}
+
+span {
+  color: #fff;
+  text-shadow: 1px 1px 5px #000;
 }
